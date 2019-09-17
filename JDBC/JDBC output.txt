@@ -1,0 +1,278 @@
+run:
+Name of the database (not the user account): Database user name: Database password: Connecting to database...
+Welcome to the Data Base.
+What would you like to do?
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 1
+Displaying all groups: 
+Group Name               Head Writer              Year Formed              Subject                  
+Freedom Writers          Benjamin Franklin        1926                     Math                     
+Hardee                   Carl                     1965                     Drama                    
+Phoenix                  Jane                     1972                     Thriller                 
+Sandwich                 Toby                     1999                     Food                     
+Arms Day                 Johnson                  1985                     Military                 
+Techno Squad             Earl                     1966                     Science Fiction          
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 2
+What group would you like information for?
+Techno Squad
+Group Name               Book Title               Publisher Name           Year Published           Number Pages             Head Writer              Subject                  Pub. Adress              Pub. Phone               Pub. Email               
+Techno Squad             Dancing 101              Rolling Stoned           1990                     100                      Earl                     Science Fiction          1234 Bell Ave.           562-888-9878             new@new.com              
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 3
+Creating statement...
+Publisher Name           Publisher Adress         Publisher Phone          Publisher Email          
+Random House             12345 Fake St.           562-4147-7777            email@yahoo.com          
+Random Ent               123456                   576-487-9876             Random@yahoo.com         
+Star Pages               4622 Honey Street        250-474-8836             starpages@gmail.com      
+History                  5324 Ranchero Street     303-673-8888             history@gmail.com        
+Food Network             56890 Einstein Ave       909-888-8888             foodnet@gmail.com        
+Bamboo Village           23576 Roopert Ave        765-390-0045             bamboo@gmail.com         
+Rolling Stone            123 Albert Blvd          562-432-7555             rolling@gmail.com        
+Rolling Pebbles          123 Hoxie Ave            713-887-8989             Pebbles@aol.com          
+Moon Pages               123 Bell Dr.             562-908-7878             newEmail@yahoo.com       
+Rand                     1234 Fake st.            55505550555              pub@you.com              
+Rolling Stoned           1234 Bell Ave.           562-888-9878             new@new.com              
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 4
+Creating statement...
+What publisher would you like information for?
+Moon Pages
+Group Name               Book Title               Publisher Name           Year Published           Number Pages             Head Writer              Subject                  Pub. Adress              Pub. Phone               Pub. Email               
+Hardee                   Western Bacon            Moon Pages               1872                     200                      Carl                     Drama                    123 Bell Dr.             562-908-7878             newEmail@yahoo.com       
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 5
+Creating statement...
+Displaying all books: 
+The last set
+Bitcoin
+Quotes
+The Shinning
+Oregon Trail
+Ratpack
+Western Bacon
+Honey Recipes
+Dancing 101
+Inside 9/11
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 6
+Creating statement...
+What book would you like information for?
+Bitcoin
+Group Name               Book Title               Publisher Name           Year Published           Number Pages             Head Writer              Subject                  Pub. Adress              Pub. Phone               Pub. Email               
+Freedom Writers          Bitcoin                  Random Ent               2008                     190                      Benjamin Franklin        Math                     123456                   576-487-9876             Random@yahoo.com         
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 7
+Connecting to database...
+Creating statement...
+Enter name of valid group?
+Freedom Writers
+What is the name of the book?
+Block Chain
+Enter a valid Publisher
+Random Ent
+What is thte year published?
+2010
+What is the number of pages? 
+156
+Freedom Writers Block Chain Random Ent 2010 156 Successfully added
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 8
+Type in the name of the old publisher:
+Random Ent
+Type info for the new publisher:
+Enter publisher name
+Alpha Books
+Enter new publisher adress
+12501 Bell Dr.
+Enter new publisher phone
+562-888-9999
+Enter new publisher email
+Alpha@gmail.com
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 4
+Creating statement...
+What publisher would you like information for?
+Alpha Books
+Group Name               Book Title               Publisher Name           Year Published           Number Pages             Head Writer              Subject                  Pub. Adress              Pub. Phone               Pub. Email               
+Freedom Writers          The Shinning             Alpha Books              123                      123                      Benjamin Franklin        Math                     12501 Bell Dr.           562-888-9999             Alpha@gmail.com          
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 9
+Enter a writing group
+Alpha Books
+Enter a writing group
+Freedom Writers
+Enter a publisher
+Alpha Books
+Type in the name of the book you would like to remove:
+The Shinning
+Remove Successful
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+1
+1. List all writing groups
+2. List all group data
+3. List all publishers
+4. List all publisher data
+5. List all books
+6. List all book data
+7. Insert a new book
+8. Insert a new publisher
+9. Remove a book
+0. Exit
+
+Insert your selection here: 5
+Creating statement...
+Displaying all books: 
+The last set
+Bitcoin
+Block Chain
+Quotes
+Oregon Trail
+Ratpack
+Western Bacon
+Honey Recipes
+Dancing 101
+Inside 9/11
+What would you like to do next?
+Would you like to make another selection?
+1.Yes 0.Exit
+0
+BUILD SUCCESSFUL (total time: 5 minutes 41 seconds)

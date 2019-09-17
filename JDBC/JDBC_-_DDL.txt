@@ -1,0 +1,53 @@
+CREATE TABLE writingGroup(
+  GroupName varchar(50) NOT NULL,
+  HeadWriter varchar(50) NOT NULL,
+  YearFormed int NOT NULL,
+  Subject varchar(50) NOT NULL,
+  CONSTRAINT writingGroup_pk PRIMARY KEY (GroupName)
+);
+
+CREATE TABLE publishers(
+  PublisherName varchar(50) NOT NULL,
+  PublisherAddress varchar(50) NOT NULL,
+  PublisherPhone varchar(50) NOT NULL,
+  PublisherEmail varchar(100) NOT NULL,
+  CONSTRAINT publisher_pk PRIMARY KEY (PublisherName)
+);
+
+CREATE TABLE books(
+  GroupName varchar(50) NOT NULL,
+  BookTitle varchar(50) NOT NULL,
+  PublisherName varchar(50) NOT NULL,
+  YearPublished int NOT NULL,
+  NumberPages int NOT NULL,
+  CONSTRAINT books_pk PRIMARY KEY (GroupName, BookTitle),
+  CONSTRAINT books_ibfk_1 FOREIGN KEY (GroupName) REFERENCES writingGroup (GroupName),
+  CONSTRAINT books_ibfk_2 FOREIGN KEY (PublisherName) REFERENCES publishers (PublisherName)
+);
+
+/* Inserting new data*/
+insert into writingGroup(GroupName, HeadWriter, YearFormed, Subject) values
+('Random House', 'Floyd Wilson', 1927, 'Children Literature'),
+('Henrys Library', 'Henry Flay', 1952, 'History'),
+('Supernatural Readings', 'Mary Flanders', 1967, 'Science Fiction'),
+('Ghoul Stompers', 'Vlad Alucard', 1897, 'Horror'),
+('The Jokesters', 'Marcus Black', 1997, 'Comedy'),
+('Super Squad', 'George Foreman', 1923, 'Comic Book'),
+('Street Stories', 'Anthony Sullivan', 1989, 'Crime');
+
+insert into publishers(PublisherName, PublisherAddress, PublisherPhone, PublisherEmail) values
+('Holtz', '8942 Richard Str', '808-944-0322', 'holtz_readings@gmail.com'),
+('Porter Pages', '43768 Disney Ave', '344-290-6771', 'porter_pages@gmail.com'),
+('Smiths Press', '20198 Willy Ave', '309-918-0348', 'smith_press@gmail.com'),
+('Penguin Literature', '1298 Artic Blvd', '209-893-0288', 'penguin_literature@gmail.com'),
+('Baron Books', '92830 Magenta Str', '566-222-0091', 'baron_books@gmail.com');
+
+insert into books(GroupName, BookTitle, PublisherName, YearPublished, NumberPages) values
+('Random House', 'My ABCs', 'Porter Pages', 2011, 12),
+('Random House', 'Easy Math', 'Porter Pages', 2014, 83),
+('Random House', 'Mr. Frogs Amazing Adventure', 'Holtz', 2017, 22),
+('Random House', 'Artic Animals', 'Penguin Literature', 2001, 31),
+('Henrys Library', 'World War II', 'Baron Books', 2003, 123),
+('Henrys Library', 'Abraham Lincoln', 'Smiths Press', 2004, 73),
+('Henrys Library', 'Ancient Egypt', 'Holtz', 2003, 200),
+('Henrys Library', 'The Red Scare', 'Smiths Press', 2002, 89);
